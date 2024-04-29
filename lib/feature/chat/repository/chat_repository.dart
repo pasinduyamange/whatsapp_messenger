@@ -49,19 +49,19 @@ class ChatRepository {
 
       switch (messageType) {
         case MessageType.image:
-          lastMessage = 'Photo message';
+          lastMessage = '📸 Photo message';
           break;
         case MessageType.audio:
-          lastMessage = 'Voice message';
+          lastMessage = '📸 Voice message';
           break;
         case MessageType.vedio:
-          lastMessage = 'Vedio message';
+          lastMessage = '📸 Vedio message';
           break;
         case MessageType.gif:
-          lastMessage = 'Gif message';
+          lastMessage = '📦 Gif message';
           break;
         default:
-          lastMessage = 'GIF message';
+          lastMessage = '📦 GIF message';
           break;
       }
 

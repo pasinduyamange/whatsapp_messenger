@@ -93,7 +93,7 @@ class MessageCard extends StatelessWidget {
                       ? 15
                       : 10
                   : 4,
-              child: myMessageType.MessageType.text
+              child: message.type == myMessageType.MessageType.text
                   ? Text(
                       DateFormat.Hm().format(message.timeSent),
                       style: TextStyle(
