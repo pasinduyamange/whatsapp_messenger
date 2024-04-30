@@ -41,7 +41,7 @@ class _ChatTextFieldState extends ConsumerState<ChatTextField> {
     }
   }
 
-  Future<void> sendFileMessage(var file, MessageType messageType) async {
+  void sendFileMessage(var file, MessageType messageType) async {
     ref.read(chatControllerProvider).sendFileMessage(
           context,
           file,
